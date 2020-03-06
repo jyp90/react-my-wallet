@@ -1,0 +1,65 @@
+.App {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  /* max-width: 375px; */
+  width: 100%;
+  vertical-align: middle;
+}
+
+.header {
+  padding: 20px;
+  background-color: rgb(17, 16, 16);
+  color: whitesmoke;
+  border: none;
+}
+
+.list {
+    text-align: center;
+}
+
+.list table {
+  width: 100%;
+  margin: 0;
+  background-color: rgb(17, 16, 16);
+  color: whitesmoke;
+}
+
+.list table th {
+  height: 30px;
+  margin: 0;
+  border: 1px solid rgb(252, 246, 246);
+}
+
+.list table td {
+  height: 25px;
+  margin: 0;
+  border: 1px solid rgb(252, 246, 246);
+}
+
+.App-header div {
+  font-size: 40px;
+}
+
+footer {
+  height: 100px;
+  background-color: rgb(17, 16, 16);
+  text-align: right;
+}
+
+footer .popup {
+  padding-top: 20px;
+  text-align: center;
+  color: whitesmoke;
+  display: none;
+}
+
+footer .button-add {
+  padding: 10px 20px;  
+  background-color: beige;
+  border: 1px solid bisque;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+  vertical-align: bottom;
+  display: none;
+}
